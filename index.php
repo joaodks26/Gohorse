@@ -17,21 +17,25 @@
     function soma($numero1, $numero2)
     {
         $variavelsoma = $numero1 + $numero2;
-        return $variavelsoma;
+        echo $variavelsoma;
     }
 
     function media($numero1, $numero2, $numero3, $numero4)
     {
         $media = ($numero1 + $numero2 + $numero3 + $numero4) / 4;
-        echo $media
+        echo $media;
     }
 
     function fatorial($numero1)
     {
+        $fatorial = 1;
+
         for ($i = $numero1; $i >= 1; $i--)
         {
+
             $fatorial = $fatorial * $numero1;
-            $numero1 = $numero1 -1;
+            $numero1 = $numero1 - 1;
         }
+            echo $fatorial;
     }
 
