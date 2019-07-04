@@ -20,3 +20,8 @@
         return $variavelsoma;
     }
 
+    function media($numero1, $numero2, $numero3, $numero4)
+    {
+        $media = ($numero1 + $numero2 + $numero3 + $numero4) / 4;
+        echo $media
+    }
