@@ -7,7 +7,7 @@
         $sub = $numero1 - $numero2;
         echo $sub;      
     }
-    
+
     function multiplicacao($numero1, $numero2)
     {
         $multiplicacao = $numero1 * $numero2;
