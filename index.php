@@ -20,7 +20,7 @@
         return $variavelsoma;
     }
 
-    function media($numero1, $numero2, $numero3, $numero4)
+    function divisao($numero1, $numero2)
     {
         $media = ($numero1 + $numero2 + $numero3 + $numero4) / 4;
         echo $media;
@@ -29,9 +29,17 @@
     function fatorial($numero1)
     {
         for ($i = $numero1; $i >= 1; $i--)
+
+        if ($numero2 == 0)
         {
-            $fatorial = $fatorial * $numero1;
-            $numero1 = $numero1 -1;
+            echo " Não dividimos por zero";
+        }        
+        else
+        {
+            $div = $numero1 / $numero2;
+            echo $div;
         }
     }
 
+
+    
