@@ -41,7 +41,7 @@
     
     function divisao($numero1, $numero2)
     {
-        if ($numero2 == 0)
+        if($numero2 == 0)
         {
             echo " Não dividimos por zero";
         }        
