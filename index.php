@@ -35,7 +35,6 @@
 
             $fatorial = $fatorial * $numero1;
             $numero1 = $numero1 - 1;
-        }
-            echo $fatorial;
+      }
+        echo $fatorial;
     }
-
