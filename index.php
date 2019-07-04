@@ -29,8 +29,6 @@
     function fatorial($numero1)
     {
         for ($i = $numero1; $i >= 1; $i--)
-
-        if ($numero2 == 0)
         {
             echo " Não dividimos por zero";
         }        
